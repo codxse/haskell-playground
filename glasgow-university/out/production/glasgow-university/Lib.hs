@@ -29,15 +29,6 @@ roots a b c =
     [rootm, rootp]
     
 max2 a c = if a > c then a else c
-
--- Map and folds
-lst_ = map f lst
-f x = x * (x + 1)
-lst = [ 1..10 ]
-
-g = (/)
-accl = foldl g 1 lst
-accr = foldr g 1 lst
    
     
   
